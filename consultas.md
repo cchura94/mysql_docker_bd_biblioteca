@@ -20,7 +20,7 @@ SELECT *  FROM libros ORDER By cant_pagina ASC
 ```
 
 #### 4. (Group by) (agrupar datos): Cantidad de libros por gestión
-```
+```sql
 SELECT gestion, COUNT(*) as total_libros
 FROM libros
 GROUP By gestion;
